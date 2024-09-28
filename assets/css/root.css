@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*---------font-family---------*/
+.ff_chewy {
+    font-family: 'Chewy', sans-serif;
+}
+
+.ff_Balsamiq {
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+
+/* root  */
+:root {
+    --font-base: 20px;
+    --font-md: 24px;
+    --font-lg: 32px;
+    --font-2lg: 64px;
+    --font-xl: 200px;
+    --dark-green: #0a4740;
+    --yellow: #FBA11D;
+    --white: #FFFFFF;
+    --sky: #23AAAC;
+    --orange: #D45B07;
+    --red: #FB5352;
+    --light-green: #8EC627;
+   --off-green: #09655A;
+}
+
+/*--------font-size------*/
+.text-base {
+    font-size: var(--font-base) !important;
+}
+
+.text-md {
+    font-size: var(--font-md);
+}
+
+.text-lg {
+    font-size: var(--font-lg) !important;
+}
+
+.text-2lg {
+    font-size: var(--font-2lg);
+}
+
+.text-xl {
+    font-size: var(--font-xl) !important;
+}
+
+.text-yellow {
+    color: var(--yellow);
+}
+
+.text-white {
+    color: var(--white);
+}
+
+.text-dark_green {
+    color: var(--dark-green);
+}
+
+.text-sky {
+    color: var(--sky);
+}
+
+.text-orange {
+    color: var(--orange);
+}
+
+.text-red {
+    color: var(--red);
+}
+
+.text-light-green {
+    color: var(--light-green);
+}
+.bg-yellow {
+ background-color: var(--yellow);
+}
+.bg-sky {
+    background-color: var(--sky);
+}
+
+.bg-orange {
+    background-color: var(--orange);
+}
+
+.bg-red {
+    background-color: var(--red);
+}
+.bg-light-green {
+    background-color: var(--light-green);
+}
+.bg-dark-green {
+    background-color: var(--dark-green);
+}
+.bg-off-green{
+    background-color:var( --off-green);
+}
+
+@media(max-width:1200px) {
+    :root {
+        --font-base: 18px;
+        --font-md: 20px;
+        --font-lg: 28px !important;
+        --font-2lg: 44px;
+        --font-xl: 160px;
+    }
+}
+@media(max-width:1024px) {
+    :root {
+        --font-base: 16px;
+        --font-md: 18px;
+        --font-lg: 28px !important;
+        --font-2lg: 40px;
+        --font-xl: 160px;
+    }
+}
+@media(max-width:992px) {
+    :root {
+        --font-base: 14px;
+        --font-md: 16px;
+        --font-lg: 20px !important;
+        --font-2lg: 40px;
+        --font-xl: 160px;
+    }
+}
+@media(max-width:768px) {
+    :root {
+        --font-base: 14px;
+        --font-md: 14px;
+        --font-lg: 18px !important;
+        --font-2lg: 40px;
+        --font-xl: 140px;
+    }
+}
+@media(max-width:576px) {
+    :root {
+        --font-base: 14px;
+        --font-md: 14px;
+        --font-lg: 18px !important;
+        --font-2lg: 40px;
+        --font-xl: 80px;
+    }
+}
