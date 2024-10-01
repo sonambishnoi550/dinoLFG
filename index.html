@@ -42,7 +42,7 @@
                         md: '728px',
                         lg: '1026px',
                         xl: '1240px',
-                        '2xl': '1440px',
+                        xxl: '1440px',
                     },
                 },
                 extend: {
@@ -86,6 +86,11 @@
                 transform: translateY(-25px);
             }
         }
+        @media(max-width:1023.99px){
+            .roadmap-height{
+                min-height: 1700px !important;
+            }
+        }
 
         @media(max-width:767.99px) {
             .roadmap-height{
@@ -100,37 +105,37 @@
             }
 
             .roadmap-text {
-                top: 11.5% !important;
+                top: 12.5% !important;
                 left: 44% !important;
             }
 
             .roadmap-number {
-                top: 30% !important;
+                top: 33% !important;
                 left: 8% !important;
             }
 
             .roadmap-text-1 {
-                top: 35% !important;
+                top: 36% !important;
                 left: 44% !important;
             }
 
             .roadmap-number-3 {
-                top: 56% !important;
+                top: 58% !important;
                 left: 8% !important;
             }
 
             .roadmap-text-3 {
-                top: 60% !important;
+                top: 61% !important;
                 left: 45% !important;
             }
 
             .roadmap-number-4 {
-                top: 78% !important;
+                top: 81% !important;
                 left: 8% !important;
             }
 
             .roadmap-text-4 {
-                top: 83% !important;
+                top: 84% !important;
                 left: 45% !important;
             }
         }
@@ -207,16 +212,16 @@
 
 <body>
     <!------------tokenomics-section----------------->
-    <section class="bg-dark-green relative xl:min-h-[1400px] sm:min-h-[1200px] min-h-[1000px] ">
+    <section class="bg-dark-green relative 2xl:min-h-[1400px] sm:min-h-[1200px] min-h-[1000px] ">
         <img src="assets/images/bg-layer.png" alt="bgLayer" class="w-full pointer-events-none">
         <div class="container w-full justify-center flex-col items-center flex">
             <div class="absolute right-0 top-56 hidden xl:block pointer-events-none">
-                <img src="assets/images/right-side-layer.png" alt="sidelayer">
+                <img src="assets/images/webp/right-side-layer.webp" alt="sidelayer">
             </div>
             <h2 class="text-white text-2lg font-normal leading-tight ff_chewy text-center ">Tokenomics</h2>
             <div class=" relative flex items-center flex-col "  data-aos="zoom-in-up" data-aos-duration="1300">
-                <img src="assets/images/dino.png" alt="dino"
-                    class="pt-16 absolute sm:top-[-14%] top-[18%] dino-move pointer-events-none sm:max-w-[133px] max-w-[103px]">
+                <img src="assets/images/webp/dino.webp" alt="dino"
+                    class="md:pt-16 pt-6 absolute sm:top-[9%] top-[18%] dino-move pointer-events-none sm:max-w-[133px] max-w-[103px]">
                 <div class=" h-32 sm:w-64 w-44 mx-auto relative translate-y-32 pointer-events-none">
                     <img src="assets/images/webp/semi-circle.webp" alt="circle">
                 </div>
@@ -288,7 +293,7 @@
                         class="font-normal text-lg ff_Balsamiq text-yellow absolute sm:right-[48%] sm:top-[44rem] right-[41%] top-[34.5rem] yellow-graph-main">
                         333,333,333 </p>
                     <p
-                        class="ff_Balsamiq text-md font-normal text-white absolute sm:right-[57%] sm:top-[46rem] right-[52%] top-[36.5rem] yellow-graph-text">
+                        class="ff_Balsamiq text-md font-normal text-white absolute sm:right-[56.5%] sm:top-[46rem] right-[52%] top-[36.5rem] yellow-graph-text">
                         Supply</p>
                 </div>
                 <div class="flex">
@@ -318,7 +323,7 @@
                     <span
                         class="h-4 w-4 absolute sm:right-[67%] sm:top-[59.3rem] right-[67%] top-[50.3rem] rounded-full bg-red red-graph-dot"></span>
                     <p
-                        class="font-normal text-lg ff_Balsamiq text-red absolute sm:right-[43%] sm:top-[59rem] right-[36%] top-[50rem] red-graph-text">
+                        class="font-normal text-lg ff_Balsamiq text-red absolute sm:right-[44%] sm:top-[59rem] right-[36%] top-[50rem] red-graph-text">
                         No Mint
                         Function</p>
                 </div>
@@ -326,7 +331,7 @@
                     <span
                         class="h-4 w-4 absolute sm:right-[67%] sm:top-[62.3rem] right-[67%] top-[54.3rem] rounded-full bg-light-green green-graph-dot"></span>
                     <p
-                        class="font-normal text-lg ff_Balsamiq text-light-green absolute sm:right-[38%] sm:top-[62rem] right-[29%] top-[54rem] green-graph-text">
+                        class="font-normal text-lg ff_Balsamiq text-light-green absolute sm:right-[39%] sm:top-[62rem] right-[29%] top-[54rem] green-graph-text">
                         Liquidity lock for 1 year</p>
                 </div>
             </div>
@@ -335,7 +340,7 @@
             <img src="assets/images/webp/tree.webp" alt="tree"
                 class="absolute lg:bottom-[6%] lg:left-[35%] bottom-[1%] left-[4%] z-10  pointer-events-none">
             <img src="assets/images/webp/small-tree.webp" alt="tree"
-                class="absolute lg:bottom-[3%] lg:left-[55%] bottom-[1%] left-[70%] z-10 pointer-events-none">
+                class="absolute lg:bottom-[3%] lg:left-[55%] bottom-[1%] left-[67%] z-10 pointer-events-none">
             <img src="assets/images/webp/hero-last-tree.webp" alt="tree"
                 class="absolute bottom-[5%] right-[6%] z-10 pointer-events-none  hidden lg:block">
             <img src="assets/images/webp/second-grass.webp" alt="grass"
@@ -350,17 +355,17 @@
             class="absolute bottom-[6%] left-[-5%] pointer-events-none hidden lg:block">
     </section>
     <!-------------layer-section ---------------------------->
-    <section class="bg-dark-green relative z-10">
+    <section class="bg-dark-green relative mb-[-5px]">
         <img src="assets/images/webp/hero-bottom-layer.webp" alt="layer" class="w-full mt-[-2px] pointer-events-none">
         <img src="assets/images/webp/footer-top-layer.webp" alt="layer" class="w-full z-10 pointer-events-none">
     </section>
     <!-------------------roadmap-section ------------------------->
-    <section class="bg-[#09655A] relative md:min-h-[2100px] roadmap-height">
+    <section class="bg-[#09655A] relative lg:min-h-[2100px] roadmap-height">
         <div class="container">
             <h2 class="ff_chewy font-normal text-2lg text-white text-center leading-tight">Roadmap</h2>
             <div>
                 <img src="assets/images/webp/roadmap.webp" alt="roadmap"
-                    class="absolute xl:top-[13%] xl:left-[21%] pointer-events-none lg:top-[12%] lg:left-[13%] top-[12%] left-[8%] xl:max-w-[998px] max-w-[878px] helicopter">
+                    class="absolute xl:top-[13%] xl:left-[21%] pointer-events-none lg:top-[12%] lg:left-[13%] top-[12%] left-[8%] xl:max-w-[998px] max-w-[808px] helicopter">
                 <div class="flex">
                     <h2
                         class="text-xl ff_chewy text-yellow font-normal absolute xl:top-[7%] xl:left-[13%] md:top-[8%] md:left-[8%] left-[8%] top-[9.5%] leading-snug z-10 number-shadow drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)]" data-aos="zoom-in-up" data-aos-duration="1300">
@@ -389,13 +394,13 @@
                 </div>
                 <div class="flex">
                     <img src="assets/images/webp/road-map-tree.webp" alt="tree"
-                        class="absolute xl:top-[31%] xl:left-[16%] top-[27%] left-[1%] helicopter pointer-events-none" data-aos="zoom-in-up" data-aos-duration="1300">
+                        class="absolute xl:top-[31%] xl:left-[16%] top-[27%] left-[3.5%] helicopter pointer-events-none" data-aos="zoom-in-up" data-aos-duration="1300">
                     <img src="assets/images/webp/road-map-grass.webp" alt="tree"
-                        class="absolute xl:top-[41.5%] xl:left-[19%] top-[37.5%] left-[6%] helicopter pointer-events-none" data-aos="zoom-in-up" data-aos-duration="1300">
+                        class="absolute xl:top-[41.5%] xl:left-[19%] top-[40.5%] left-[10%] helicopter pointer-events-none" data-aos="zoom-in-up" data-aos-duration="1300">
                     <h2
-                        class=" drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] text-xl z-10 roadmap-number ff_chewy text-light-green font-normal absolute xl:top-[33.5%] xl:left-[34%] md:top-[29.5%] md:left-[31%] leading-snug" data-aos="zoom-in-up" data-aos-duration="1300">
+                        class=" drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] text-xl z-10 roadmap-number ff_chewy text-light-green font-normal absolute xl:top-[33.5%] xl:left-[34%] md:top-[30.5%] md:left-[31%] leading-snug" data-aos="zoom-in-up" data-aos-duration="1300">
                         02</h2>
-                    <div class="flex-col absolute xl:top-[37%] xl:left-[54%] top-[32%] left-[54%] roadmap-text-1" data-aos="zoom-in-up" data-aos-duration="1300">
+                    <div class="flex-col absolute xl:top-[37%] xl:left-[54%] top-[33.5%] left-[54%] roadmap-text-1" data-aos="zoom-in-up" data-aos-duration="1300">
                         <div class="flex align-items-baseline ms-3 sm:mb-4 mb-2">
                             <p
                                 class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
@@ -415,9 +420,9 @@
                 </div>
                 <div class="flex">
                     <h2
-                        class=" drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] text-xl z-10 roadmap-number-3 ff_chewy text-orange font-normal absolute xl:bottom-[34%] xl:left-[12%] bottom-[42%] left-[10%] leading-snug" data-aos="zoom-in-up" data-aos-duration="1300">
+                        class=" drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] text-xl z-10 roadmap-number-3 ff_chewy text-orange font-normal absolute xl:bottom-[34%] xl:left-[12%] bottom-[35%] left-[10%] leading-snug" data-aos="zoom-in-up" data-aos-duration="1300">
                         03</h2>
-                    <div class="flex-col absolute xl:bottom-[38%] xl:left-[32%] bottom-[45%] left-[32%] roadmap-text-3" data-aos="zoom-in-up" data-aos-duration="1300">
+                    <div class="flex-col absolute xl:bottom-[37.5%] xl:left-[32%] bottom-[38%] left-[32%] roadmap-text-3" data-aos="zoom-in-up" data-aos-duration="1300">
                         <div class="flex align-items-baseline ms-3 sm:mb-4 mb-2 ">
                             <p
                                 class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
@@ -435,15 +440,15 @@
                         </div>
                     </div>
                     <img src="assets/images/webp/road-map-tree-2.webp" alt="tree"
-                        class="absolute 2xl:bottom-[37%] pointer-events-none 2xl:right-[29%] xl:right-[13%] xl:bottom-[36%] lg:right-[6%] lg:bottom-[44%] right-[12%] bottom-[44%] lg:max-w-[240px] max-w-[180px] helicopter" data-aos="zoom-in-up" data-aos-duration="1300">
+                        class="absolute 2xl:bottom-[37%] pointer-events-none 2xl:right-[29%] xl:right-[13%] xl:bottom-[36%] lg:right-[9%] lg:bottom-[38%] right-[12%] bottom-[44%] lg:max-w-[240px] max-w-[180px] helicopter" data-aos="zoom-in-up" data-aos-duration="1300">
                     <img src="assets/images/webp/footer-dino.webp" alt="grass"
-                        class="absolute 2xl:bottom-[34%] pointer-events-none 2xl:right-[33%] lg:max-w-[120px] xl:right-[17%] xl:bottom-[34%] lg:right-[11%] lg:bottom-[41%] right-[15%] bottom-[41%] max-w-[100px] helicopter" data-aos="zoom-in-up" data-aos-duration="1300">
+                        class="absolute 2xl:bottom-[34%] pointer-events-none 2xl:right-[33%] lg:max-w-[120px] xl:right-[17%] xl:bottom-[34%] lg:right-[14%] lg:bottom-[35.5%] right-[15%] bottom-[41%] max-w-[100px] helicopter" data-aos="zoom-in-up" data-aos-duration="1300">
                 </div>
                 <div class="flex">
                     <h2
-                        class=" drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] text-xl z-10 ff_chewy text-sky font-normal absolute xl:top-[77%] xl:left-[39%] top-[68%] left-[35%] leading-snug roadmap-number-4" data-aos="zoom-in-up" data-aos-duration="1300" >
+                        class=" drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] text-xl z-10 ff_chewy text-sky font-normal absolute xl:top-[77%] xl:left-[39%] top-[75%] left-[35%] leading-snug roadmap-number-4" data-aos="zoom-in-up" data-aos-duration="1300" >
                         04</h2>
-                    <div class="flex-col absolute xl:bottom-[14%] xl:left-[60%] bottom-[24%] left-[60%] roadmap-text-4" data-aos="zoom-in-up" data-aos-duration="1300">
+                    <div class="flex-col absolute xl:bottom-[13.5%] xl:left-[60%] bottom-[14%] left-[60%] roadmap-text-4" data-aos="zoom-in-up" data-aos-duration="1300">
                         <div class="flex align-items-baseline ms-3 sm:mb-4 mb-2">
                             <p
                                 class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
@@ -462,14 +467,14 @@
                     </div>
                 </div>
                 <img src="assets/images/webp/roadmap-grass2.webp" alt="grass"
-                    class="absolute xl:bottom-[4.5%] xl:left-[37%] lg:bottom-[14.5%] lg:left-[37%] bottom-[14.5%] left-[31%] helicopter pointer-events-none" data-aos="zoom-in-up" data-aos-duration="1300">
-                <div class=" roadmap absolute max-sm:left-[15%] left-32 top-[14%] bottom-[7%] w-3 border-l-[5px] border-dashed
+                    class="absolute xl:bottom-[4.5%] xl:left-[37%] lg:bottom-[4.5%] lg:left-[35%] bottom-[14.5%] left-[31%] helicopter pointer-events-none" data-aos="zoom-in-up" data-aos-duration="1300">
+                <div class=" roadmap absolute max-sm:left-[15%] left-32 top-[14%] bottom-[8%] w-3 border-l-[5px] border-dashed
                 border-[#0a4740] "></div>
             </div>
         </div>
     </section>
     <div>
-        <img src="assets/images/footer-bottom-layer.png" alt="layer" class="w-full">
+        <img src="assets/images/footer-bottom-layer.png" alt="layer" class="w-full mt-[-5px]">
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
