@@ -44,14 +44,6 @@
                         xxl: '1440px',
                     },
                 },
-                extend: {
-                    colors: {
-                    },
-                    fontSize: {
-                    },
-                    boxShadow: {
-                    }
-                }
             }
         }
     </script>
@@ -73,13 +65,6 @@
             animation: mover 0.5s infinite alternate;
         }
 
-        .roadmap {
-            display: none;
-        }
-        .roadmap {
-            display: none;
-        }
-
         @keyframes mover {
             0% {
                 transform: translate(0);
@@ -89,19 +74,6 @@
                 transform: translateY(-25px);
             }
         }
-
-        @media(max-width:1023.99px) {
-            .roadmap-height {
-                min-height: 1700px !important;
-            }
-        }
-
-        @media(max-width:767.99px) {
-            .roadmap-height {
-                min-height: 900px !important;
-            }       
-        }
-
     </style>
 </head>
 
@@ -116,18 +88,18 @@
                     class="absolute right-0 xl:top-[20%] top-[10%] lg:block hidden">
                 <h3 class="text-center text-white md:text-[64px] text-5xl font-normal ff_chewy max-lg:-mb-8 mb-44">
                     Tokenomics</h3>
-                <div class="relative flex items-center flex-col ">
+                <div class="relative flex items-center flex-col">
                     <img src="/assets/images/webp/dino.webp" alt="cartoon"
                         class="absolute -top-16 max-w-full mx-auto max-lg:hidden dino-move">
-                    <div class="h-32 w-64 mx-auto  relative flex max-lg:hidden">
+                    <div class="h-32 w-64 mx-auto relative flex max-lg:hidden">
                         <div data-aos="zoom-in-up" data-aos-duration="1300"
-                            class="h-32 w-64 mx-auto  relative flex max-lg:hidden">
+                            class="h-32 w-64 mx-auto relative flex max-lg:hidden">
                             <img class="w-full max-w-[252px] absolute" src="./assets/images/webp/semi-circle.webp"
-                                alt="">
+                                alt="circle">
                         </div>
                     </div>
                     <div data-aos="zoom-in-up" data-aos-duration="1500"
-                        class="max-xl:mb-[-150px] w-[589px] h-72 relative mx-auto max-lg:hidden ">
+                        class="max-xl:mb-[-150px] w-[589px] h-72 relative mx-auto max-lg:hidden">
                         <img src="/assets/images/webp/yellow-card.webp" alt="absolute" class="absolute top-[-48%]">
                         <img src="/assets/images/webp/sky-card.webp" alt="light-green-box"
                             class="absolute top-[-14%] left-[8%]">
@@ -139,15 +111,15 @@
                             class="absolute bottom-[99%] right-[-1%]">
                     </div>
                     <div class="relative w-[1123px] h-[368px] -mb-[250px] max-xl:hidden">
-                        <p class="absolute text-4xl font-normal text-[#FBA11D] leading-[120%] ff_Balsamiq top-[-105%]
+                        <p class="absolute text-4xl font-normal text-[#FBA11D] leading-[120%] top-[-105%]
              left-[-1.5%]">333,333,333</p>
-                        <p class=" absolute font-normal text-2xl text-white ff_Balsamiq top-[-92%] left-[10%]">Supply
+                        <p class="absolute font-normal text-2xl text-white top-[-92%] left-[10%]">Supply
                         </p>
                         <img src="/assets/images/webp/yellow-card-line.webp" alt="arrow" class="absolute top-[-105%]
               left-[20%]">
-                        <p class="text-[#23AAAC] leading-[120%] ff_Balsamiq absolute  text-4xl font-normal top-[-43%]
+                        <p class="text-[#23AAAC] leading-[120%] absolute text-4xl font-normal top-[-43%]
         left-[8%]">95% Uniswa</p>
-                        <p class="text-[#23AAAC] leading-[120%] ff_Balsamiq absolute  text-4xl font-normal top-[-31%]
+                        <p class="text-[#23AAAC] leading-[120%] absolute text-4xl font-normal top-[-31%]
         left-[6%]">5% Marketing</p>
                         <p class="absolute font-normal text-2xl text-white font_Balsamiq  top-[-18%] left-[15%]">
                             Allocation
@@ -171,17 +143,15 @@
                         <p
                             class="leading-[120%] font_Balsamiq absolute  text-4xl font-normal text-[#8EC627] max-w-[217px] top-[-100%] right-[-2%]">
                             Liquidity lock for 1 year</p>
-
                     </div>
-
                     <div class=" flex items-center flex-col w-full xl:hidden">
 
                         <div class=" min-h-screen flex items-center justify-center flex-col w-full xl:hidden ">
                             <img src="/assets/images/webp/dino.webp" alt="dog-dino"
-                                class="max-w-[100px] mx-auto translate-y-[66px]  pointer-events-none lg:hidden dino">
+                                class="max-w-[100px] mx-auto translate-y-[66px] pointer-events-none lg:hidden dino">
 
                             <div class="translate-y-[-28px] "> <img src="/assets/images/dino-card.png" alt="box-group"
-                                    class="lg:hidden  p-6 circle_box max-w-[380px] max-sm:max-w-[352px] pointer-events-none">
+                                    class="lg:hidden p-6 circle_box max-w-[380px] max-sm:max-w-[352px] pointer-events-none">
                             </div>
 
                             <div class="flex flex-col items-center justify-center w-full max-md:pt-5">
@@ -192,44 +162,43 @@
                                 <div class=" mx-auto xl:hidden translate-y-[-64px] relative z-30">
                                     <div class="border-[#FBA11D] border-2 p-3 rounded-2xl mb-6 mx-3" data-aos="zoom-in">
                                         <p
-                                            class="text-4xl font-normal text-[#FBA11D] leading-[120%] font_Balsamiq  max-md:text-[30px] max-sm:text-2xl">
+                                            class="text-4xl font-normal text-[#FBA11D] leading-[120%] font_Balsamiq max-md:text-[30px] max-sm:text-2xl">
                                             333,333,333</p>
                                         <p
-                                            class="font-normal text-2xl text-white ff_Balsamiq max-md:text-xl max-sm:text-lg">
+                                            class="font-normal text-2xl text-white max-md:text-xl max-sm:text-lg">
                                             Supply</p>
                                     </div>
                                     <div class="border-[#23AAAC] border-2 p-3 rounded-2xl mb-6 mx-3" data-aos="zoom-in">
                                         <p
-                                            class="text-4xl font-normal text-[#23AAAC] leading-[120%] ff_Balsamiq  max-md:text-[30px] max-sm:text-2xl">
+                                            class="text-4xl font-normal text-[#23AAAC] leading-[120%] max-md:text-[30px] max-sm:text-2xl">
                                             95% Uniswa
                                         </p>
                                         <p
-                                            class="text-4xl font-normal text-[#23AAAC] leading-[120%] ff_Balsamiq max-md:text-[30px] max-sm:text-2xl">
+                                            class="text-4xl font-normal text-[#23AAAC] leading-[120%] max-md:text-[30px] max-sm:text-2xl">
                                             5% Marketing</p>
                                         <p
-                                            class="font-normal text-2xl text-white ff_Balsamiq  max-md:text-xl max-sm:text-lg">
+                                            class="font-normal text-2xl text-white max-md:text-xl max-sm:text-lg">
                                             Allocation</p>
                                     </div>
                                     <div class="border-[#D45B07] border-2 p-3 rounded-2xl mb-6 mx-3" data-aos="zoom-in">
                                         <p
-                                            class="text-4xl font-normal text-[#D45B07] leading-[120%] ff_Balsamiq  max-md:text-[30px] max-sm:text-2xl">
+                                            class="text-4xl font-normal text-[#D45B07] leading-[120%] max-md:text-[30px] max-sm:text-2xl">
                                             No Tax
                                         </p>
 
                                     </div>
                                     <div class="border-[#FB5352] border-2 p-3 rounded-2xl mb-6 mx-3" data-aos="zoom-in">
                                         <p
-                                            class="text-4xl font-normal text-[#FB5352] leading-[120%] ff_Balsamiq  max-md:text-[30px] max-sm:text-2xl">
+                                            class="text-4xl font-normal text-[#FB5352] leading-[120%] max-md:text-[30px] max-sm:text-2xl">
                                             No
                                             Mint Function</p>
                                     </div>
                                     <div class="border-[#8EC627] border-2 p-3 rounded-2xl mb-6 mx-3" data-aos="zoom-in">
                                         <p
-                                            class="text-4xl font-normal text-[#8EC627] leading-[120%] ff_Balsamiq max-md:text-[30px] max-sm:text-2xl">
+                                            class="text-4xl font-normal text-[#8EC627] leading-[120%] max-md:text-[30px] max-sm:text-2xl">
                                             Liquidity lock
                                             for 1 year</p>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -241,7 +210,7 @@
             <img src="./assets/images/webp/big-tree.webp" alt="tree"
                 class="lg:block hidden absolute bottom-24 -left-24 w-full max-w-[352px] z-10">
             <img src="./assets/images/webp/frog-image.webp" alt="tree"
-                class="lg:block hidden absolute bottom-[13%]  w-full max-w-[211px] z-10 left-[-2%]">
+                class="lg:block hidden absolute bottom-[13%] w-full max-w-[211px] z-10 left-[-2%]">
             <img src="./assets/images/webp/hero-last-tree.webp" alt="tree"
                 class="lg:block hidden absolute bottom-[5%]  right-20 max-xl:bottom-5 z-10 ">
             <img src="./assets/images/webp/tree.webp" alt="tree"
@@ -251,7 +220,7 @@
             <img src="./assets/images/webp/left-side-layer.webp" alt="layer"
                 class="xl:block hidden absolute left-[-25%] -bottom-24 z-10">
             <img src="./assets/images/webp/grass.webp" alt="layer"
-                class="lg:block hidden absolute   bottom-0 left-[20%] z-10">
+                class="lg:block hidden absolute  bottom-0 left-[20%] z-10">
             <img class="w-full" src="./assets/images/webp/bottom-layer.webp" alt="layer">
         </div>
     </section>
@@ -265,15 +234,15 @@
         <div class="container">
             <div class="relative overflow-hidden pb-8 pt-8 lg:pb-14">
                 <div class="max-w-[1140px] mx-auto px-3">
-                    <div id="roadmap" class="sm:pt-0 pt-[35px] pb-8 sm:pb-[64px] relative">
-                        <h2 class="ff_chewy text-2lg text-white font-normal text-center leading-tight max-sm:pb-[80px]">
+                    <div  class="sm:pt-0 pt-[35px] pb-8 sm:pb-[64px] relative">
+                        <h2 class="ff_chewy sm:text-6xl text-5xl text-white font-normal text-center leading-tight max-sm:pb-[80px]">
                             Roadmap</h2>
                         <div class="container max-w-[768px] lg:max-w-[1000px] relative lg:mt-[83px] max-md:hidden">
                             <div
                                 class="relative flex flex-col items-center justify-between lg:flex-row max-md:ml-10 max-sm:gap-5 z-[1] max-md:mt-10 max-sm:ml-0">
                                 <div
                                     class="flex items-center justify-center max-lg:flex-col max-md:ps-5 gap-12 lg:mt-[4%] mt-[4%] max-lg:mr-[-150px] max-sm:mr-0">
-                                    <h2 class="text-yellow-600 lg:text-[200px] text-[100px] sm:text-[150px]  ff_chewy drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] max-lg:max-w-[100px] max-lg:me-auto max-sm:max-w-[100%] max-sm:ms-auto"
+                                    <h2 class="text-yellow-600 lg:text-[200px] text-[100px] sm:text-[150px] ff_chewy drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] max-lg:max-w-[100px] max-lg:me-auto max-sm:max-w-[100%] max-sm:ms-auto"
                                         data-aos="zoom-in-up">
                                         01
                                     </h2>
@@ -281,52 +250,52 @@
                                         data-aos="zoom-in-up" data-aos-duration="1300">
                                         <div class="flex align-items-baseline ms-3 sm:mb-4 mb-2">
                                             <p
-                                                class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                                class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                                 Launch $DINO & Website & Social Media.</p>
                                         </div>
                                         <div class="flex align-items-baseline ms-3 sm:mb-4 mb-2">
                                             <p
-                                                class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                                class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                                 Building the community.</p>
                                         </div>
                                         <div class="flex align-items-baseline ms-3 sm:mb-4 mb-2">
                                             <p
-                                                class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                                class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                                 Marketing Phase 2.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <img src="./assets/images/webp/helicopter.webp" alt="pilot-dog"
-                                    class="pointer-events-none max-lg:mt-20 max-md:max-w-[140px] max-lg:max-w-[176px] max-lg:absolute max-sm:-left-[50px] top-[-11px] left-[54px]  max-sm:hidden"
+                                    class="pointer-events-none max-lg:mt-20 max-md:max-w-[140px] max-lg:max-w-[176px] max-lg:absolute max-sm:-left-[50px] top-[-11px] left-[54px] max-sm:hidden"
                                     data-aos="zoom-in" />
                             </div>
                             <div
                                 class="relative z-10 flex items-center max-md:mt-8 md:items-end lg:items-end md:mt-[40px] max-md:ml-10 max-lg:ml-5 lg:mt-[268px] flex-col lg:flex-row max-sm:gap-5 max-md:ps-5 max-sm:ml-0 max-sm:pe-0">
                                 <div class="flex order-2 lg:order-1 max-sm:justify-center">
                                     <img src="./assets/images/webp/road-map-tree.webp" alt="TimeChris"
-                                        class="lg:mr-20 max-md:max-w-[100px] max-lg:max-w-[150px] max-lg:absolute left-[39px] max-sm:-left-[40px] top-[4%] pointer-events-none  max-sm:hidden"
+                                        class="lg:mr-20 max-md:max-w-[100px] max-lg:max-w-[150px] max-lg:absolute left-[39px] max-sm:-left-[40px] top-[4%] pointer-events-none max-sm:hidden"
                                         data-aos="zoom-in" />
                                 </div>
                                 <div
-                                    class="flex items-center justify-center order-1 gap-12 max-lg:flex-col lg:order-2 max-lg:pe-[117px] max-md:pe-0  -ms-[78px] lg:pb-[2%] mt-[0px]">
+                                    class="flex items-center justify-center order-1 gap-12 max-lg:flex-col lg:order-2 max-lg:pe-[117px] max-md:pe-0 -ms-[78px] lg:pb-[2%] mt-[0px]">
                                     <h2
-                                        class="text-lime-500 lg:text-[200px] text-[100px] sm:text-[150px]  ff_chewy font-normal drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] -mb-[30px] max-lg:max-w-[100px] max-lg:me-auto max-sm:max-w-[100%] max-sm:ms-auto max-sm:ps-[78px]">
+                                        class="text-lime-500 lg:text-[200px] text-[100px] sm:text-[150px] ff_chewy font-normal drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] -mb-[30px] max-lg:max-w-[100px] max-lg:me-auto max-sm:max-w-[100%] max-sm:ms-auto max-sm:ps-[78px]">
                                         02</h2>
-                                    <div class="flex flex-col pl-[20px] max-[576px]:ps-[100px] max-[426px]:ps-[140px] max-[420px]:ps-[124px] :  xl:pt-[32px] sm:pt-6  list-disc marker:text-sm"
+                                    <div class="flex flex-col pl-[20px] max-[576px]:ps-[100px] max-[426px]:ps-[140px] max-[420px]:ps-[124px] xl:pt-[32px] sm:pt-6 list-disc marker:text-sm"
                                         data-aos="zoom-in-up" data-aos-duration="1300">
                                         <div class="flex align-items-baseline ms-3 sm:mb-4 mb-2">
                                             <p
-                                                class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                                class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                                 CoinGecko & Coinmarketcap listing.</p>
                                         </div>
                                         <div class="flex align-items-baseline ms-3 sm:mb-4 mb-2">
                                             <p
-                                                class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                                class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                                 Introduction to Buyback & Burning mechanism.</p>
                                         </div>
                                         <div class="flex align-items-baseline ms-3 sm:mb-4 mb-2">
                                             <p
-                                                class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                                class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                                 Marketing Phase 2.</p>
                                         </div>
                                     </div>
@@ -335,25 +304,25 @@
                             <div
                                 class="relative z-10 flex items-center max-md:mt-6 lg:items-end flex-col lg:flex-row sm:justify-between mt-10 sm:mt-8 md:mt-[37px]">
                                 <div
-                                    class="flex items-center justify-center max-lg:flex-col  max-sm:max-w-[180px] max-sm:ml-[15px] gap-12 max-lg:mr-[-53px] max-sm:mr-[25px]">
+                                    class="flex items-center justify-center max-lg:flex-col max-sm:max-w-[180px] max-sm:ml-[15px] gap-12 max-lg:mr-[-53px] max-sm:mr-[25px]">
                                     <h2
-                                        class="lg:text-[200px] text-[100px] sm:text-[150px]  font-normal ff_chewy text-orange-600 drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)]  max-lg:max-w-[100px] max-lg:me-auto max-sm:max-w-[100%] max-sm:ms-auto">
+                                        class="lg:text-[200px] text-[100px] sm:text-[150px] font-normal ff_chewy text-orange-600 drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] max-lg:max-w-[100px] max-lg:me-auto max-sm:max-w-[100%] max-sm:ms-auto">
                                         03</h2>
                                     <div class="flex flex-col max-[425px]:pl-[60px] max-[600px]:pl-[19px] max-[376px]:pl-[70px] aos-init max-sm:ms-[-38px] max-sm:pl-[55px] text-nowrap list-disc marker:text-sm"
                                         data-aos="zoom-in-up" data-aos-duration="1300">
                                         <div class="flex align-items-baseline ms-3 sm:mb-4 mb-2 ">
                                             <p
-                                                class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                                class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                                 Utility and Usecase Introduction.</p>
                                         </div>
                                         <div class="flex align-items-baseline ms-3 sm:mb-4 mb-2">
                                             <p
-                                                class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                                class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                                 CEX Listings.</p>
                                         </div>
                                         <div class="flex align-items-baseline ms-3 sm:mb-4 mb-2">
                                             <p
-                                                class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                                class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                                 Marketing Phase 3.</p>
                                         </div>
                                     </div>
@@ -367,31 +336,31 @@
                                 <div
                                     class="flex flex-col justify-center items-center md:items-start lg:ml-[150px] lg:-mb-[30px]">
                                     <div
-                                        class="flex  gap-12 max-lg:flex-col justify-center text-center items-center max-md:ml-40 max-sm:ml-0 lg:ml-[-22px]">
+                                        class="flex gap-12 max-lg:flex-col justify-center text-center items-center max-md:ml-40 max-sm:ml-0 lg:ml-[-22px]">
                                         <h2
                                             class="ff_chewy font-normal lg:text-[200px] text-[100px] sm:text-[150px] text-sky">
                                             04</h2>
-                                        <div class="flex flex-col lg:pl-[65px]  max-sm:ms-[-48px] list-disc marker:text-sm"
+                                        <div class="flex flex-col lg:pl-[65px] max-sm:ms-[-48px] list-disc marker:text-sm"
                                             data-aos="zoom-in-up" data-aos-duration="1300">
                                             <div class="flex align-items-baseline ms-3 sm:mb-4 mb-2">
                                                 <p
-                                                    class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                                    class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                                     Staking Introduction.</p>
                                             </div>
                                             <div class="flex align-items-baseline ms-3 sm:mb-4 mb-2">
                                                 <p
-                                                    class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                                    class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                                     DINO NFT Collection</p>
                                             </div>
                                             <div class="flex align-items-baseline ms-3 sm:mb-4 mb-2">
                                                 <p
-                                                    class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                                    class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                                     Marketing Phase 4.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div
-                                        class="max-sm:hidden   lg:mt-10 md:translate-x-[27px] max-md:max-w-[100px] max-lg:absolute left-[40px] max-sm:left-[-23PX] top-[7%]  max-w-[175px] w-full pointer-events-none">
+                                        class="max-sm:hidden lg:mt-10 md:translate-x-[27px] max-md:max-w-[100px] max-lg:absolute left-[40px] max-sm:left-[-23PX] top-[7%] max-w-[175px] w-full pointer-events-none">
                                         <img src="./assets/images/webp/roadmap-grass2.webp" alt="grass"
                                             data-aos="zoom-in" />
                                     </div>
@@ -405,101 +374,101 @@
                         </div>
                         <div class="md:hidden flex flex-col gap-20 justify-center px-3 min-[426px]:ps-24">
                             <div
-                                class="flex items-center  gap-8  max-md:ps-5 lg:gap-6 lg:mt-[4%] mt-[-10%]  max-lg:mr-[-150px] max-sm:mr-0">
+                                class="flex items-center gap-8 max-md:ps-5 lg:gap-6 lg:mt-[4%] mt-[-10%] max-lg:mr-[-150px] max-sm:mr-0">
                                 <h2 data-aos="zoom-in"
-                                    class="text-[80px]  font-normal sm:leading-[130%] leading-[70%] ff_chewy text-[#FBA11D] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] max-lg:max-w-[100px] ">
+                                    class="text-[80px] font-normal sm:leading-[130%] leading-[70%] ff_chewy text-[#FBA11D] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] max-lg:max-w-[100px]">
                                     01
                                 </h2>
-                                <div class="flex flex-col  list-disc marker:text-sm" data-aos="zoom-in-up"
+                                <div class="flex flex-col list-disc marker:text-sm" data-aos="zoom-in-up"
                                     data-aos-duration="1300">
                                     <div class="flex align-items-baseline ms-3 sm:mb-4 ">
                                         <p
-                                            class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                            class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                             CoinGecko & Coinmarketcap listing.</p>
                                     </div>
                                     <div class="flex align-items-baseline ms-3 sm:mb-4 ">
                                         <p
-                                            class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                            class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                             Introduction to Buyback & Burning mechanism.</p>
                                     </div>
                                     <div class="flex align-items-baseline ms-3 sm:mb-4 mb-2">
                                         <p
-                                            class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                            class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                             Marketing Phase 2.</p>
                                     </div>
                                 </div>
                             </div>
                             <div
-                                class="flex items-center  max-sm:gap-6  max-md:ps-3 lg:gap-6 lg:mt-[4%] mt-[-10%]  max-lg:mr-[-150px] max-sm:mr-0">
+                                class="flex items-center max-sm:gap-6 max-md:ps-3 lg:gap-6 lg:mt-[4%] mt-[-10%] max-lg:mr-[-150px] max-sm:mr-0">
                                 <h2 data-aos="zoom-in"
-                                    class="text-[80px]  font-normal sm:leading-[130%] leading-[70%] ff_chewy text-[#8EC627]  drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] max-lg:max-w-[100px] ">
+                                    class="text-[80px] font-normal sm:leading-[130%] leading-[70%] ff_chewy text-[#8EC627] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] max-lg:max-w-[100px]">
                                     02
                                 </h2>
-                                <div class="flex flex-col  marker:text-sm" data-aos="zoom-in-up"
+                                <div class="flex flex-col marker:text-sm" data-aos="zoom-in-up"
                                     data-aos-duration="1300">
-                                    <div class="flex align-items-baseline ms-3 sm:mb-4 ">
+                                    <div class="flex align-items-baseline ms-3 sm:mb-4">
                                         <p
-                                            class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                            class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                             CoinGecko & Coinmarketcap listing.</p>
                                     </div>
                                     <div class="flex align-items-baseline ms-3 sm:mb-4 ">
                                         <p
-                                            class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                            class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                             Introduction to Buyback & Burning mechanism.</p>
                                     </div>
-                                    <div class="flex align-items-baseline ms-3 sm:mb-4 ">
+                                    <div class="flex align-items-baseline ms-3 sm:mb-4">
                                         <p
-                                            class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                            class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                             Marketing Phase 2.</p>
                                     </div>
                                 </div>
                             </div>
                             <div
-                                class="flex items-center max-sm:gap-6   max-md:ps-3 lg:gap-12 lg:mt-[4%] mt-[-10%]  max-lg:mr-[-150px] max-sm:mr-0">
+                                class="flex items-center max-sm:gap-6 max-md:ps-3 lg:gap-12 lg:mt-[4%] mt-[-10%] max-lg:mr-[-150px] max-sm:mr-0">
                                 <h2 data-aos="zoom-in"
-                                    class="text-[80px]  font-normal sm:leading-[130%] leading-[70%] ff_chewy text-[#D45B07] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] max-lg:max-w-[100px] ">
+                                    class="text-[80px] font-normal sm:leading-[130%] leading-[70%] ff_chewy text-[#D45B07] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] max-lg:max-w-[100px]">
                                     03
                                 </h2>
-                                <div class="flex flex-col    list-disc marker:text-sm" data-aos="zoom-in-up"
+                                <div class="flex flex-col list-disc marker:text-sm" data-aos="zoom-in-up"
                                     data-aos-duration="1300">
-                                    <div class="flex align-items-baseline ms-3 sm:mb-4  ">
+                                    <div class="flex align-items-baseline ms-3 sm:mb-4">
                                         <p
-                                            class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                            class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                             Utility and Usecase Introduction.</p>
                                     </div>
-                                    <div class="flex align-items-baseline ms-3 sm:mb-4 ">
+                                    <div class="flex align-items-baseline ms-3 sm:mb-4">
                                         <p
-                                            class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                            class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                             CEX Listings.</p>
                                     </div>
-                                    <div class="flex align-items-baseline ms-3 sm:mb-4 ">
+                                    <div class="flex align-items-baseline ms-3 sm:mb-4">
                                         <p
-                                            class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                            class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                             Marketing Phase 3.</p>
                                     </div>
                                 </div>
                             </div>
                             <div
-                                class="flex items-center max-sm:gap-6   max-md:ps-3 lg:gap-12 lg:mt-[4%] mt-[-10%]  max-lg:mr-[-150px] max-sm:mr-0">
+                                class="flex items-center max-sm:gap-6 max-md:ps-3 lg:gap-12 lg:mt-[4%] mt-[-10%] max-lg:mr-[-150px] max-sm:mr-0">
                                 <h2 data-aos="zoom-in"
-                                    class="text-[80px]  font-normal sm:leading-[130%] leading-[70%] ff_chewy text-[#23AAAC] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] max-lg:max-w-[100px] ">
+                                    class="text-[80px] font-normal sm:leading-[130%] leading-[70%] ff_chewy text-[#23AAAC] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)] max-lg:max-w-[100px]">
                                     04
                                 </h2>
-                                <div class="flex flex-col  list-disc marker:text-sm" data-aos="zoom-in-up"
+                                <div class="flex flex-col list-disc marker:text-sm" data-aos="zoom-in-up"
                                     data-aos-duration="1300">
                                     <div class="flex align-items-baseline ms-3 sm:mb-4 ">
                                         <p
-                                            class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                            class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                             Staking Introduction.</p>
                                     </div>
                                     <div class="flex align-items-baseline ms-3 sm:mb-4 ">
                                         <p
-                                            class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                            class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                             DINO NFT Collection</p>
                                     </div>
                                     <div class="flex align-items-baseline ms-3 sm:mb-4 ">
                                         <p
-                                            class="text-white text-base ff_Balsamiq font-normal leading-6 list-unstyled relative dots">
+                                            class="text-white text-base font-normal leading-6 list-unstyled relative dots">
                                             Marketing Phase 4.</p>
                                     </div>
                                 </div>
